@@ -1,0 +1,48 @@
+[
+    {
+      "recordId":"XADD122133ASAQ",
+      "hosts":[
+          "2001:0db8:85a3:0000:0000:8a2e:0370:7334",
+          "1.1.1.1",
+          "127.0.0.1",
+          "2404:6800:4005:81c::200e"
+        ],
+      "type":"http",
+      "port": 80,
+      "urlPath" : "/",
+      "vhost" : "",
+      "okCodes": [200,201,400],
+      "threshold": 5,
+      "interval": 30,
+      "timeout": 5
+    },
+    {
+      "recordId":"THTGIP",
+      "hosts":[
+        "123.30.141.4:80",
+        "123.30.141.4",
+        "11.2.3.1"
+      ],
+      "type":"tcp",
+      "port": 80,
+      "vhost":"www.thtg.vn",
+      "urlPath" : "/category/tin-tuc",
+      "okCodes": [200,201],
+      "threshold": 5,
+      "interval": 30,
+      "timeout": 5
+    },
+    {
+      "recordId":"ASACASHASER12",
+      "hosts":[
+        "1.2.3.4",
+        "127.0.0.1",
+        "1.1.1.1"
+        ],
+      "type":"tcp",
+      "port": 80,
+      "threshold": 5,
+      "interval": 30,
+      "timeout": 5
+    }
+  ]

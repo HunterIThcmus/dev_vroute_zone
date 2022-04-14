@@ -1,0 +1,15 @@
+[
+ {
+      "recordId":"ASACASHASER13",
+      "hosts":[
+        "1.2.3.4",
+        "127.0.0.1",
+        "1.1.1.1"
+        ],
+      "type":"tcp",
+      "port": 80,
+      "threshold": 5,
+      "interval": 30,
+      "timeout": 5
+  }
+]
