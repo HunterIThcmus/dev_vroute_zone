@@ -1,0 +1,1 @@
+[{"name":"fo.vroute.com.","recordId":"ASACASHASER123" ,"type":"A","ttl":30,"healthCheck":true,"config":{"master":["1.2.3.4","1.1.1.2"],"slaves":["1.1.1.3"]}}]

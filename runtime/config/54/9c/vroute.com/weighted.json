@@ -1,0 +1,1 @@
+[{"name":"wrr.vroute.com.","recordId":"ASACASHASER12","type":"A","ttl":30,"healthCheck":true,"config":{"values":[{"ip":"1.1.1.1","weight":10},{"ip":"127.0.0.1","weight":10},{"ip":"1.2.3.4","weight":20}]}}]

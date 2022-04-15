@@ -1,0 +1,6 @@
+. {
+  vr_location GeoIP2-City.mmdb
+  reload 5s
+}
+
+include ./config/*/*/*/config.vr

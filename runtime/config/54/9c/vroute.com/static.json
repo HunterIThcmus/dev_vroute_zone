@@ -1,0 +1,1 @@
+[{"name":"static.vroute.com.","type":"A","ttl":120,"config":{"values":["1.2.3.4","2.2.2.2"]}},{"name":"vroute.com.","type":"NS","ttl":1000,"config":{"values":["1tu9zoxp3n.vngstack.com","djq6b79fce.vngstack.com","h31olzmbe2.vngstack.com"]}}]

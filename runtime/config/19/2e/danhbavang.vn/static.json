@@ -1,0 +1,27 @@
+[{
+    "name": "danhbavang.vn.",
+    "type": "NS",
+    "ttl": 1000,
+    "config": {
+      "values": [
+        "fr267c9zl2.vngstack.com",
+        "ud74d2522a.vngstack.com",
+        "153eat2u92.vngstack.com"
+      ]
+    }
+  },
+  {
+    "name":"danhbavang.vn.",
+    "type": "SOA",
+    "ttl": 1000,
+    "config": {
+      "values":[
+        {
+          "serial": 123123131,
+          "nameServer": "ns1-dev.vngcloud.vn",
+          "rName": "ns1-dev.vngcloud.vn"
+        }
+        ]
+    }
+  }
+]

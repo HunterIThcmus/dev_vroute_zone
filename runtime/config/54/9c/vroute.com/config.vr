@@ -1,0 +1,8 @@
+vroute.com. {
+  vr_failover ./dev_vrout_zone/runtime/config/54/9c/vroute.com/failover.json
+  vr_multivalue ./dev_vrout_zone/runtime/config/54/9c/vroute.com/multivalue.json
+  vr_static ./dev_vrout_zone/runtime/config/54/9c/vroute.com/static.json
+  vr_weighted ./dev_vrout_zone/runtime/config/54/9c/vroute.com/weighted.json
+  vr_geoip ./dev_vrout_zone/runtime/config/54/9c/vroute.com/geoip.json
+
+}

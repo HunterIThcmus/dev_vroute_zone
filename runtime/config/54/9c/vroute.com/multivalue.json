@@ -1,0 +1,16 @@
+[
+    {
+      "name": "multivalue.vroute.com.",
+      "type": "A",
+      "ttl": 30,
+      "healthCheck": true,
+      "recordId": "ASACASHASER12",
+      "config": {
+        "values": [
+          "1.2.3.4",
+          "127.0.0.1",
+          "1.1.1.1"
+        ]
+      }
+    }
+  ]

@@ -1,0 +1,19 @@
+. {
+vr_location GeoIP2-City.mmdb
+reload 5s
+    cache_server REDIS_SERVER_ADDRESS
+    [cache_password REDIS_SERVER_PASSWORD]
+    [cache_expiration CACHE_EXPIRATION]
+
+}
+
+danhbavang.vn. {
+vr_static ./dev_vrout_zone/runtime/config/19/2e/danhbavang.vn/static.json
+}
+vroute.com. {
+vr_failover ./dev_vrout_zone/runtime/config/54/9c/vroute.com/failover.json
+vr_multivalue ./dev_vrout_zone/runtime/config/54/9c/vroute.com/multivalue.json
+vr_static ./dev_vrout_zone/runtime/config/54/9c/vroute.com/static.json
+vr_weighted ./dev_vrout_zone/runtime/config/54/9c/vroute.com/weighted.json
+}
+
